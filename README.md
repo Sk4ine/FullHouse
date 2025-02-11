@@ -1,6 +1,6 @@
 # FullHouse
 
-## Members
+### Members
 - Aksenov Ivan
 - Kostina Polina
 - Kochetkov Kirill
