@@ -47,4 +47,4 @@
 5. Качество технической поддержки
 
 ### Диаграмма вариантов использования
-![alt text](resources/images/Iteration2_UseCase.jpg)
+![alt text](resources/images/Iteration2_UseCase.png)
