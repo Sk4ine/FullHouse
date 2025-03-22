@@ -103,7 +103,7 @@
 ![alt text](resources/images/Iteration2_UseCase.png)
 
 ### Модель C4
-**Контекст системы:**
+**Контекст системы**
 ![alt text](resources/images/C4_Model-SystemContext.png)
 
 **Контейнеры**
