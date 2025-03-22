@@ -107,4 +107,4 @@
 ![alt text](resources/images/C4_Model-SystemContext.png)
 
 **Контейнеры**
-![alt text](resources/images/C4_model-Containers.png)
+![alt text](<resources/images/structurizr-100670-Containers (1).svg>)
