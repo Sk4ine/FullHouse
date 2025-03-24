@@ -103,8 +103,30 @@
 ![alt text](resources/images/Iteration2_UseCase.png)
 
 ### Модель C4
-**Контекст системы**
-![alt text](resources/images/C4_Model-SystemContext.png)
+#### Контекст системы
+![alt text](resources/images/C4_Model/C4_Model-SystemContext.png)
 
-**Контейнеры**
-![alt text](resources/images/C4_model-Containers.png)
+#### Контейнеры
+![alt text](resources/images/C4_Model/C4_model-Containers.png)
+
+#### Компоненты
+**Bonus Service**
+![alt text](resources/images/C4_Model/Component-BonusService.png)
+
+**CatalogService**
+![alt text](resources/images/C4_Model/Component-CatalogService.png)
+
+**Integration Service**
+![alt text](resources/images/C4_Model/Component-IntegrationService.png)
+
+**Leaderboard Service**
+![alt text](resources/images/C4_Model/Component-LeaderboardService.png)
+
+**Notification Service**
+![alt text](resources/images/C4_Model/Component-NotificationService.png)
+
+**Task Service**
+![alt text](resources/images/C4_Model/Component-TaskService.png)
+
+**User Service**
+![alt text](resources/images/C4_Model/Component-UserService.png)
