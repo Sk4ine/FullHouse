@@ -113,7 +113,7 @@
 **Bonus Service**
 ![alt text](resources/images/C4_Model/Component-BonusService.png)
 
-**CatalogService**
+**Catalog Service**
 ![alt text](resources/images/C4_Model/Component-CatalogService.png)
 
 **Integration Service**
