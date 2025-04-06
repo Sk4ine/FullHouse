@@ -107,7 +107,7 @@
 ![alt text](resources/images/C4_Model/C4_Model-SystemContext.png)
 
 #### Контейнеры
-![alt text](resources/images/C4_Model/C4_model-Containers.png)
+![alt text](resources/images/C4_Model/C4_model-Containers.jpg)
 
 #### Компоненты
 **Bonus Service**
