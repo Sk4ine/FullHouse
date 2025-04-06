@@ -133,4 +133,10 @@
 
 ### Диаграммы последовательности
 #### Начисление бонусов за успеваемость
-![alt text](<resources/images/SequenceDiagram/FullHouse Workspace.jpg>)
+![alt text](resources/images/SequenceDiagram/Bonus.jpg)
+
+#### Покупка товара во внутреннем магазине
+![alt text](resources/images/SequenceDiagram/Product.jpg)
+
+#### Создание задания преподавателем
+![alt text](resources/images/SequenceDiagram/Task.jpg)
