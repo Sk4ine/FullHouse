@@ -111,25 +111,25 @@
 
 #### Компоненты
 **Bonus Service**
-![alt text](resources/images/C4_Model/Component-BonusService.png)
+![alt text](resources/images/C4_Model/Component-BonusService.jpg)
 
 **Catalog Service**
-![alt text](resources/images/C4_Model/Component-CatalogService.png)
+![alt text](resources/images/C4_Model/Component-CatalogService.jpg)
 
 **Integration Service**
-![alt text](resources/images/C4_Model/Component-IntegrationService.png)
+![alt text](resources/images/C4_Model/Component-IntegrationService.jpg)
 
 **Leaderboard Service**
-![alt text](resources/images/C4_Model/Component-LeaderboardService.png)
+![alt text](resources/images/C4_Model/Component-LeaderboardService.jpg)
 
 **Notification Service**
-![alt text](resources/images/C4_Model/Component-NotificationService.png)
+![alt text](resources/images/C4_Model/Component-NotificationService.jpg)
 
 **Task Service**
-![alt text](resources/images/C4_Model/Component-TaskService.png)
+![alt text](resources/images/C4_Model/Component-TaskService.jpg)
 
 **User Service**
-![alt text](resources/images/C4_Model/Component-UserService.png)
+![alt text](resources/images/C4_Model/Component-UserService.jpg)
 
 ### Диаграммы последовательности
 #### Начисление бонусов за успеваемость
