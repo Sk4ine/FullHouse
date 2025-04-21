@@ -140,3 +140,23 @@
 
 #### Создание задания преподавателем
 ![alt text](resources/images/SequenceDiagram/Task.jpg)
+
+### Запросы API
+Отправитель | Данные обмена | Ответ и код | Получатель
+| --- | --- | --- | --- |
+Mobile App/Web App | `POST /auth/login` с `userId`, `password` | `200` Успешный вход<br>`401` Неверные данные | User Service
+Mobile App/Web App | `GET /users/me` с токеном авторизации | `200` Данные пользователя<br>`401` Неавторизован | User Service
+Mobile App/Web App/Task Service/Bonus Service | `GET /users/{userId}` | `200` Пользователь найден<br>`404` Не найден | User Service
+Mobile App | `PUT /users/{userId}` с обновлённым `email` | `200` Обновлено<br>`404` Не найден | User Service
+Mobile App/Web App | `GET /users/students/{studentId}/bonuses` | `200` Текущий баланс | User Service
+Mobile App/Web App | `GET /catalog` | `200` Список товаров | Catalog Service
+Web App | `POST /catalog` с объектом `Product` | `201` Товар добавлен<br>`400` Ошибка ввода | Catalog Service
+Mobile App/Web App/User Service | `GET /catalog/{productId}` | `200` Товар найден<br>`404` Не найден | Catalog Service
+Web App | `PUT /catalog/{productId}` с обновлёнными данными | `200` Товар обновлён<br>`404` Не найден | Catalog Service
+Web App | `DELETE /catalog/{productId}` | `204` Удалён<br>`404` Не найден<br>`410` Уже удалён | Catalog Service
+Mobile App | `POST /catalog/{productId}/purchase` с `student_id` | `200` Покупка успешна<br>`400` Недостаточно бонусов | Catalog Service
+Mobile App/Web App | `GET /tasks` | `200` Список заданий | Task Service
+Mobile App | `POST /tasks` с объектом `Task` | `201` Задание создано | Task Service
+Mobile App/Web App/User Service | `GET /tasks/{taskId}` | `200` Задание найдено<br>`404` Не найден | Task Service
+Mobile App | `POST /tasks/{taskId}/attendance` с `attended_students` | `200` Бонусы начислены и задание завершено | Task Service
+Mobile App/Web App | `GET /leaderboard` | `200` Список студентов с очками | Leaderboard Service
