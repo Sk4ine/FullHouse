@@ -133,7 +133,7 @@
 
 ### Диаграммы последовательности
 #### Начисление бонусов за успеваемость
-![alt text](resources/images/SequenceDiagram/Bonuses.jpg)
+![alt text](resources/images/SequenceDiagram/Bonuses1.jpg)
 
 #### Покупка товара во внутреннем магазине
 ![alt text](resources/images/SequenceDiagram/Product.jpg)
