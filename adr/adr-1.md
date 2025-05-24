@@ -27,7 +27,7 @@
 
 Отдельные БД имеют только некоторые сервисы.
 
-![Диаграмма контейнеров из C4](../resources\images\C4_Model\C4_model-Containers.jpg)
+![Диаграмма контейнеров из C4](../resources/images/C4_Model/C4_model-Containers.jpg)
 
 ## Последствия:
 Плюсы:
