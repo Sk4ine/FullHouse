@@ -160,3 +160,12 @@ Mobile App | `POST /tasks` с объектом `Task` | `201` Задание с�
 Mobile App/Web App/User Service | `GET /tasks/{taskId}` | `200` Задание найдено<br>`404` Не найден | Task Service
 Mobile App | `POST /tasks/{taskId}/attendance` с `attended_students` | `200` Бонусы начислены и задание завершено | Task Service
 Mobile App/Web App | `GET /leaderboard` | `200` Список студентов с очками | Leaderboard Service
+
+### Architecture Decision Records
+- [ADR-1](adr\adr-1.md) Выбор Service-based архитектурного стиля
+- [ADR-2](adr\adr-2.md) Фронтенд-стек
+- [ADR-3](adr\adr-3.md) Бэкенд-технологии
+- [ADR-4](adr\adr-4.md) Базы данных
+- [ADR-5](adr\adr-5.md) Инфраструктура
+- [ADR-6](adr\adr-6.md) Стратегия безопасности системы
+- [ADR-7](adr\adr-7.md) Система мониторинга и логирования
