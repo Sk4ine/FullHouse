@@ -9,7 +9,7 @@
 - Гибкие данные (промо-акции)
 
 ## Решение:
-1. PostgreSQL для User, Bonus, Task сервисов
+1. PostgreSQL для User, Task сервисов
 2. MongoDB для Catalog сервиса
 
 Обоснование:
