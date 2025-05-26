@@ -104,42 +104,42 @@
 
 ### Модель C4
 #### Контекст системы
-![alt text](resources/images/C4_Model/C4_Model-SystemContext.png)
+![alt text](resources/images/c4_model/c4_model-SystemContext.png)
 
 #### Контейнеры
-![alt text](resources/images/C4_Model/C4_model-Containers.jpg)
+![alt text](resources/images/c4_model/c4_model-Containers.jpg)
 
 #### Компоненты
 **Bonus Service**
-![alt text](resources/images/C4_Model/Component-BonusService.jpg)
+![alt text](resources/images/c4_model/Component-BonusService.jpg)
 
 **Catalog Service**
-![alt text](resources/images/C4_Model/Component-CatalogService.jpg)
+![alt text](resources/images/c4_model/Component-CatalogService.jpg)
 
 **Integration Service**
-![alt text](resources/images/C4_Model/Component-IntegrationService.jpg)
+![alt text](resources/images/c4_model/Component-IntegrationService.jpg)
 
 **Leaderboard Service**
-![alt text](resources/images/C4_Model/Component-LeaderboardService.jpg)
+![alt text](resources/images/c4_model/Component-LeaderboardService.jpg)
 
 **Notification Service**
-![alt text](resources/images/C4_Model/Component-NotificationService.jpg)
+![alt text](resources/images/c4_model/Component-NotificationService.jpg)
 
 **Task Service**
-![alt text](resources/images/C4_Model/Component-TaskService.jpg)
+![alt text](resources/images/c4_model/Component-TaskService.jpg)
 
 **User Service**
-![alt text](resources/images/C4_Model/Component-UserService.jpg)
+![alt text](resources/images/c4_model/Component-UserService.jpg)
 
 ### Диаграммы последовательности
 #### Начисление бонусов за успеваемость
-![alt text](resources/images/SequenceDiagram/Bonuses1.jpg)
+![alt text](resources/images/sequence_diagram/Bonuses1.jpg)
 
 #### Покупка товара во внутреннем магазине
-![alt text](resources/images/SequenceDiagram/Product.jpg)
+![alt text](resources/images/sequence_diagram/Product.jpg)
 
 #### Создание задания преподавателем
-![alt text](resources/images/SequenceDiagram/Tasks.jpg)
+![alt text](resources/images/sequence_diagram/Tasks.jpg)
 
 ### Запросы API
 Отправитель | Данные обмена | Ответ и код | Получатель
@@ -160,6 +160,22 @@ Mobile App | `POST /tasks` с объектом `Task` | `201` Задание с�
 Mobile App/Web App/User Service | `GET /tasks/{taskId}` | `200` Задание найдено<br>`404` Не найден | Task Service
 Mobile App | `POST /tasks/{taskId}/attendance` с `attended_students` | `200` Бонусы начислены и задание завершено | Task Service
 Mobile App/Web App | `GET /leaderboard` | `200` Список студентов с очками | Leaderboard Service
+
+### Диаграммы БД
+**User Database**
+![alt text](resources/images/database_diagrams/user_db.png)
+
+**Bonus Database**
+![alt text](resources/images/database_diagrams/bonus_db.png)
+
+**Task Database**
+![alt text](resources/images/database_diagrams/task_db.png)
+
+**Catalog Database**
+![alt text](resources/images/database_diagrams/catalog_db.png)
+
+**Analytics Database**
+![alt text](resources/images/database_diagrams/analytics_db.png)
 
 ### Architecture Decision Records
 - [ADR-1](adr/adr-1.md) Выбор Service-based архитектурного стиля
