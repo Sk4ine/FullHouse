@@ -104,10 +104,10 @@
 
 ### Модель C4
 #### Контекст системы
-![alt text](resources/images/c4_model/c4_model-SystemContext.png)
+![alt text](resources/images/c4_model/C4_Model-SystemContext.png)
 
 #### Контейнеры
-![alt text](resources/images/c4_model/c4_model-Containers.jpg)
+![alt text](resources/images/c4_model/C4_model-Containers.jpg)
 
 #### Компоненты
 **Bonus Service**
