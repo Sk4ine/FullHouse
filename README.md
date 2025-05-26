@@ -141,6 +141,15 @@
 #### Создание задания преподавателем
 ![alt text](resources/images/sequence_diagram/CreateTask.jpg)
 
+#### Авторизация студента
+![alt text](resources/images/sequence_diagram/Auth.jpg)
+
+#### Составление лидерборда
+![alt text](resources/images/sequence_diagram/Leaderboard.jpg)
+
+#### Завершение задания от преподавателя
+![alt text](resources/images/sequence_diagram/TaskFinished.jpg)
+
 ### Запросы API
 Отправитель | Данные обмена | Ответ и код | Получатель
 | --- | --- | --- | --- |
