@@ -133,13 +133,13 @@
 
 ### Диаграммы последовательности
 #### Начисление бонусов за успеваемость
-![alt text](resources/images/sequence_diagram/Bonuses1.jpg)
+![alt text](resources/images/sequence_diagram/Bonuses.jpg)
 
 #### Покупка товара во внутреннем магазине
-![alt text](resources/images/sequence_diagram/Product.jpg)
+![alt text](resources/images/sequence_diagram/ProductBuy.jpg)
 
 #### Создание задания преподавателем
-![alt text](resources/images/sequence_diagram/Tasks.jpg)
+![alt text](resources/images/sequence_diagram/CreateTask.jpg)
 
 ### Запросы API
 Отправитель | Данные обмена | Ответ и код | Получатель
